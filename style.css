@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+.fullweb{
+    background-color: #ffd7ad;
+}
+.navbar{
+    width: 100%;
+    background-color:#4a1831;
+    height: 85px;
+    justify-content: center;
+    text-align: center;   
+    position: fixed;
+    z-index: 1; 
+}
+.navbar ul {
+    display: flex;
+    gap: 18px;
+}
+.navbar ul li {
+    
+
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 15pt;
+    color: #ffd7ad;
+
+}
+@media only screen and (max-width: 600px){
+    .navbar ul li a{
+        font-size: 8pt;
+    }
+    /* .banner h4{
+        font-size: 7pt;
+
+    } */
+}
+section{
+    background-image: url(Untitled-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 796px;
+
+}
+.banner {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    
+}
+.banner h1{
+font-size: 50pt;
+color: #ffd7ad;
+}
+
+.banner h4{
+     width: 550px;
+    color: #ffd7ad;
+    font-size: 20pt;
+}
+#button-hoon{
+    width: 322px;
+    height: 65px;
+    border-radius: 32.5px;
+    background-color: #ffd7ad;
+    color: #4a1831;
+    font-size: 14pt;
+    font-weight: 500;
+}
+.midlle1{
+    background-color: #ffd7ad;
+}
+#heading{
+    color:#4a1831;
+    font-weight: 500;
+}
+.fact{
+    display: flex;
+    flex-direction: column;
+   /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    gap:18px;
+    margin-top :30px ;
+}
+.row h1 h4 button{
+justify-items: center;
+}
+#button-hoon-yawr{
+    width: 322px;
+    height: 65px;
+    border-radius: 32.5px;
+    background-color:#4a1831;
+    color:#ffd7ad;
+    font-size: 14pt;
+    font-weight: 500;
+}
+.img img {
+    margin-top: 95px;
+}
+.fatc-two{
+    display:flex;
+}
+.mw{
+    align-items: center;
+    justify-content: center;
+}
+.flexkarana{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px
+}
+#head1{
+    color: #e63956;
+    font-size: 70.17pt;
+    font-weight: 1100;
+}
+#head2{
+    color:#55112e;
+    font-size: 40.17pt;
+}
+#head3{
+    color:#6cc5ac;
+    font-size: 80.17pt;
+}
+.ok-yawr-ok{
+    background-color:#4a1831;
+}
+#headings{
+    color: #ffd7ad;
+}
+.headings{
+    align-items: center;
+    text-align: center;
+}
+.backimage{
+    background-image: url(Untitled-5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.6);
+}
+.front{
+    align-items: center;
+    text-align: center;
+}
